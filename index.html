@@ -498,7 +498,9 @@ window.addEventListener("load", () => {
 
     const music = document.getElementById("bgMusic");
 
-    music.volume = 5;
+    
+    music.volume = 1.0;
+    music.muted = false;
 
     music.play().catch(() => {
 
