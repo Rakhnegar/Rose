@@ -105,7 +105,19 @@ transform:translateY(0);
 transform:translateY(-10px);
 }
 }
-
+.signature{
+    position:fixed;
+    bottom:8px;
+    left:50%;
+    transform:translateX(-50%);
+    color:white;
+    font-size:10px;
+    font-family:'Vazirmatn',sans-serif;
+    opacity:0.5;
+    z-index:20;
+    letter-spacing:1px;
+    user-select:none;
+}
 </style>
 </head>
 <body>
@@ -268,5 +280,7 @@ document.addEventListener("click", startMusic, { once: true });
 document.addEventListener("touchstart", startMusic, { once: true });
 </script>
 
+<div class="signature">iTaha</div>
+    
 </body>
 </html>
